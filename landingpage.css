@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+.header > ul {
+    background-color: #1F2937;
+    color: #eee;
+    gap: 16px;
+    padding: 16px;
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+}
+
+.header > ul > :nth-child(1) { /* Header Logo */
+    font-size: larger;
+    font-weight: 900;
+}
+
+.header > ul > :nth-child(2) { /* Push links all the way to the right */
+    display: flex;
+    margin-left: auto;
+}
+
+.footer {
+
+}
+
+.contents {
+    
+}
